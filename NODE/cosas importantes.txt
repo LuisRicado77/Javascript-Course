@@ -1,0 +1,13 @@
+os.userInfo()
+os.uptime()
+os.platform()
+os.totalmem()
+os.platform()
+os.freemen()
+
+
+console.table({
+	os: os.platform(),
+	version: os.release(),
+	totalMemory: os.totalmem()	
+})

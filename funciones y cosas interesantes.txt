@@ -1,0 +1,22 @@
+document.write();
+let nombre = prompt("ingrese su nombre");
+
+function saludar(nombre){
+	let frase = ` Hola ${nombre}! ¿Como estas?`;
+	document.write(frase)
+}
+
+formas para crear una funcion
+
+
+function saludar(nombre){
+	let frase = ` Hola ${nombre}! ¿Como estas?`;
+	document.write(frase)
+}
+
+
+const saludar = function(nombre){
+	let frase = `hola ${nombre}`;
+	document.write(frase)
+}
+saludar(nombre)

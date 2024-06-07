@@ -1,0 +1,9 @@
+console.clear()//limpia la consola
+console.error("texto")//coloca un mensaje de erro
+console.info("dar infomacion")
+console.log("mensaje de depuración")
+console.table([a,v,vl,d,e,4])//muestra objetos o arrays en tablas
+console.dir([a,v,vl,d,e,4])
+console.info([a,v,vl,d,e,4])
+console.count(); //ver cuanto se ejecuta algo
+console.countReset()
